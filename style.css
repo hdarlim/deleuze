@@ -1,0 +1,61 @@
+body {
+    background-color:  #f2e8e8;
+    color: #181818;
+    font-family: Georgia, Garamond;
+  }
+h2 {
+  text-align: center;
+}
+#img-caption {
+  width: fit-content;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30em;
+  display: block;
+}
+#image {
+  width: 30em;
+  max-width: 100%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#title {
+  text-align: center;
+}
+#tribute-info {
+  display: block;
+  text-align: center;
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:30em;
+}
+.spacing {
+  line-height: 1.5;
+}
+.hr {
+   color: #181818;
+   width: 2em;
+}
+.bibliography {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: fit-content;
+  max-width:30em;
+}
+h3 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: small;
+}
+.rh {
+  width: 30em;
+  color: #181818;
+  font-family: Georgia, Garamond;
+}
