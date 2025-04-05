@@ -1,14 +1,33 @@
 body {
-    background-color:#f2e8e8;
-    color:#181818;
+    background-color: #f2e8e8;
+    color: #181818;
     font-family: Georgia, Garamond;
   }
+
 a {
   color: inherit;
 }
+
+/* Dark mode below */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181818;
+    color: #f2e8e8;
+  }
+
+  a {
+    color: #db83b4;
+  }
+
+  .hr, .rh {
+    color: #f2e8e8;
+  }
+}
+
 h2 {
   text-align: center;
 }
+
 #img-caption {
   width: fit-content;
   text-align: justify;
@@ -17,6 +36,7 @@ h2 {
   max-width: 30em;
   display: block;
 }
+
 #image {
   width: 30em;
   max-width: 100%; 
@@ -24,9 +44,11 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 #title {
   text-align: center;
 }
+
 #tribute-info {
   display: block;
   text-align: center;
@@ -35,13 +57,16 @@ h2 {
   margin-right: auto;
   max-width:30em;
 }
+
 .spacing {
   line-height: 1.5;
 }
+
 .hr {
    color: #181818;
    width: 2em;
 }
+
 .bibliography {
   display: block;
   margin-left: auto;
@@ -50,24 +75,18 @@ h2 {
   width: fit-content;
   max-width:30em;
 }
+
 h3 {
   text-align: center;
 }
+
 footer {
   text-align: center;
   font-size: small;
 }
+
 .rh {
   width: 30em;
   color: #181818;
   font-family: Georgia, Garamond;
 }
-/* for dark mode
-body {
-  background-color: #181818;
-  color:  #f2e8e8;
-}
-a {
-  color: #db83b4;
-}
-*/
