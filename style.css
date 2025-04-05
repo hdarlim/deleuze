@@ -3,6 +3,9 @@ body {
     color:#181818;
     font-family: Georgia, Garamond;
   }
+a {
+  color: inherit;
+}
 h2 {
   text-align: center;
 }
