@@ -1,9 +1,6 @@
-/*.italic {
-  font-style: italic;
-}*/
 body {
-    background-color:  #f2e8e8;
-    color: #181818;
+    background-color:#f2e8e8;
+    color:#181818;
     font-family: Georgia, Garamond;
   }
 h2 {
@@ -62,3 +59,12 @@ footer {
   color: #181818;
   font-family: Georgia, Garamond;
 }
+/* for dark mode
+body {
+  background-color: #181818;
+  color:  #f2e8e8;
+}
+a {
+  color: #db83b4;
+}
+*/
