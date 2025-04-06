@@ -24,6 +24,11 @@ a {
   }
 }
 
+#main {
+  max-width: 85%;
+  margin: auto;
+}
+
 h2 {
   text-align: center;
 }
